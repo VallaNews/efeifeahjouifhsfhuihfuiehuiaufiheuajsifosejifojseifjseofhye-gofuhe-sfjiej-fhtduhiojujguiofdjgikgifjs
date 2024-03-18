@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Valla Matsedel</title>
+  <style>
+    /* Basic CSS for layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      /* Slightly brighter color */
+    }
+
+    header,
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #fff;
+      /* White line at the bottom */
+    }
+
+    main {
+      padding: 20px;
+      background-color: #e0e0e0;
+      /* Lighter background color for main */
+      border-bottom: 1px solid #fff;
+      /* White line at the top */
+    }
+
+    .top-article {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      /* Center align text */
+    }
+
+    .top-article img {
+      width: 100%;
+      /* Full width for the image */
+      height: auto;
+      max-height: 400px;
+      /* Maintain aspect ratio */
+      display: block;
+      margin: 0 auto 10px;
+      object-fit: cover;
+      /* Center image and add margin below */
+      border-radius: 8px;
+      /* Rounded corners for the image */
+    }
+
+    .top-article h2,
+    .top-article p {
+      margin: 0;
+      /* Remove default margin */
+    }
+
+    .secondary-articles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      /* Gap between news articles */
+    }
+
+    .secondary-article {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex: 1;
+      max-width: calc(50% - 20px);
+      /* Two articles per row with gap */
+      align-items: center;
+      /* Center content vertically */
+      padding: 10px;
+      /* Padding inside the article */
+    }
+
+    .secondary-article img {
+      width: 80px;
+      /* Fixed width for the image */
+      height: 80px;
+      /* Fixed height for the image */
+      object-fit: cover;
+      /* Maintain aspect ratio and cover container */
+      border-radius: 8px;
+      /* Rounded corners for the image */
+      margin-right: 10px;
+      /* Spacing between image and text */
+    }
+
+    .secondary-article-content {
+      flex: 1;
+      /* Expand to fill available space */
+    }
+
+    .secondary-article p {
+      margin: 0;
+      /* Remove default margin for text */
+    }
+
+    /* Anchor link style */
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Valla Matsedel</h1>
+  </header>
+
+  <main>
+    <div class="top-article">
+        <div class="meal">
+          <h2>Måndag</h2>
+          <h3>Chicken à la King med ris</h3>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
+    <div class="top-article">
+        <div class="meal">
+          <h2>Tisdag</h2>
+          <h3>Grönsaksbiff caraibean med kebabsås</h3>
+          <p>Dillkött med kokt potatis</p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
+    <div class="top-article">
+        <div class="meal">
+          <h2>Onsdag</h2>
+          <h3>Pasta med skinksås</h3>
+          <p>Krämig pastasås</p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
+    <div class="top-article">
+        <div class="meal">
+          <h2>Torsdag</h2>
+          <h3>Het köttfärssoppa med mjukt bröd och pålägg</h3>
+          <p>Broccoligratäng</p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
+    <div class="top-article">
+        <div class="meal">
+          <h2>Fredag</h2>
+          <h3>Västerhavsfisk</h3>
+          <p>Nuggets green and chips kall sås</p>
+          <p></p>
+          <p></p>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <div style="background-color: #333; padding: 20px; border-top: 1px solid #fff;">
+      <!-- White line at the top -->
+      <p>&copy; 2024 Valla News</p>
+      <p>Valla news är en hemsida skapad av elever för elever</p>
+    </div>
+  </footer>
+</body>
+
+</html>
